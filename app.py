@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def inicio():
-    return "Checkpoint funcionando :)!"
+    return "Checkpoint funcionando, versão 1 :)!"
 
 @app.route("/status")
 def status ():
